@@ -3,20 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-BF9Q5Q7J2F");
+
+ReactGA.send({ hitType: "pageview", page: window.location.pathname,});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(  
   <div>
-    <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BF9Q5Q7J2F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-BF9Q5Q7J2F');
-  </script>
-  </head>
   <React.StrictMode>
     <App />
   </React.StrictMode>

@@ -98,6 +98,8 @@ h1 {
     align-items: center;
     z-index: 100;
     box-shadow: 0px 1px 15px 1px rgb(13, 18, 23);
+    position: fixed;
+    top: 0;
   }
 
   @media all and (max-width: 600px) {
@@ -155,7 +157,8 @@ h1 {
     width: 60%;
     margin: auto;
     gap: 2rem;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
+    margin-top: 5%;
   }
 
   .apps2{
@@ -195,6 +198,7 @@ h1 {
     .apps {
       width:85%;
       margin-bottom: 5rem;
+      margin-top: 15%;
     }
   }
 

@@ -39,7 +39,7 @@ body {
     rgb(25, 23, 23) 49%
   );
   background-size: 300% 3000%;
-  animation: color 10s infinite alternate;
+  animation: color 12s infinite alternate;
   background-repeat: no-repeat;
 }
 @keyframes color {

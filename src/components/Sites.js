@@ -12,9 +12,6 @@ const Sites = () => {
                 <a className="apps2" href="https://openedu.ru/" target="_blank">
                 <FontAwesomeIcon icon={faBookAtlas} className='faBookAtlas'/>
             OpenEdu</a>
-            <a className="apps2" href="https://imet-spbstu.notion.site/7adeb7c8ee55450dabeadfd98b4b278c?v=a5a7a8bb3a9f41d3bd94e4006be77030" target="_blank">
-            <FontAwesomeIcon icon={faNoteSticky} className='faSpellCheck2'/>
-            Notion Imet</a>
                 <a className="apps2" href="http://lms.spbstu.ru/" target="_blank">
                 <FontAwesomeIcon icon={faFolderOpen} className='faFolderOpen'/>
             Голубой СДО</a>
@@ -24,6 +21,9 @@ const Sites = () => {
                 <a className="apps2" href="http://dl-hum.spbstu.ru/" target="_blank">
                 <FontAwesomeIcon icon={faFolderOpen} className='faFolderOpen3'/>
             Оранжевый СДО</a>
+            <a className="apps2" href="https://imet-spbstu.notion.site/7adeb7c8ee55450dabeadfd98b4b278c?v=a5a7a8bb3a9f41d3bd94e4006be77030" target="_blank">
+            <FontAwesomeIcon icon={faNoteSticky} className='faSpellCheck2'/>
+            Notion Imet</a>
                 <a className="apps2" href="https://mail.spbstu.ru" target="_blank">
                 <FontAwesomeIcon icon={faEnvelope} className='faEnvelope'/>
             Почта</a>

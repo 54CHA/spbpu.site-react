@@ -5,8 +5,8 @@ const Sites = () => {
     return ( 
         <div className='quickAccesss'>
     <div className="apps">
-    <a className="apps2" href="https://calendar.google.com/calendar/u/0?cid=ZjNiZjRhNTIwOWQ4OTc1ZTI5MmFkZWI2ODU4MmEzODI3MWQzM2JjZjU1MzA4NTNlN2UwNjkxZTkwYWM2YjY5ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">
-            <FontAwesomeIcon icon={faCalendarDays} className='faSpellCheck2'/>Calendar</a>
+    <a className="apps2" href="https://ruz.spbstu.ru/faculty/100/groups/40009?date=2024-12-16" target="_blank">
+            <FontAwesomeIcon icon={faCalendarDays} className='faSpellCheck2'/>Расписание</a>
         <a className="apps2" href="https://my.spbstu.ru/home/profile/" target="_blank">
         <FontAwesomeIcon icon={faUser} className='faUser'/>Личный кабинет</a>
                 <a className="apps2" href="https://openedu.ru/" target="_blank">

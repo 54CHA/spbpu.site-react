@@ -66,16 +66,14 @@ h1 {
   }
 
   
-  a:link {
+  a:link, a:visited {
     color: rgb(225, 246, 241);
     text-decoration: none;
+    transition: all 0.3s ease;
   }
-  a:visited {
-    color: rgb(225, 246, 241);
-  }
-  
   a:hover {
-    color: rgb(72, 94, 150);
+    color: rgb(207, 214, 233);
+    transform: translateY(-2px);
   }
 
   .logo{
@@ -119,8 +117,10 @@ h1 {
     color: #ffffff;
     font-weight: 500;
     text-decoration: none;
-
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
   }
   
   .navbar a:hover {
@@ -170,7 +170,13 @@ h1 {
     align-items: center;
     min-width: 15rem;
     box-shadow: 2px 2px 10px 0px rgb(16, 19, 23);
-    
+    transition: all 0.3s ease;
+  }
+
+  .apps2:hover {
+    transform: translateY(-1px);
+    box-shadow: 2px 4px 15px 0px rgba(16, 19, 23, 0.3);
+    background-color: #31303d;
   }
 
   .quickAccess {
@@ -221,7 +227,21 @@ h1 {
 
   .faFolderOpen, .faFolderOpen2, .faFolderOpen3, .faUser, .faBookAtlas, .faEnvelope, .faSpellCheck, .faSpellCheck2, .faFloppyDisk{
     width: 50px;
-    color: rgb(99, 199, 139)
+    color: rgb(99, 199, 139);
+    transition: all 0.3s ease;
+  }
+
+  /* Add hover effect for icons when their parent .apps2 is hovered */
+  .apps2:hover .faFolderOpen,
+  .apps2:hover .faFolderOpen2,
+  .apps2:hover .faFolderOpen3,
+  .apps2:hover .faUser,
+  .apps2:hover .faBookAtlas,
+  .apps2:hover .faEnvelope,
+  .apps2:hover .faSpellCheck,
+  .apps2:hover .faSpellCheck2,
+  .apps2:hover .faFloppyDisk {
+    color: rgb(128, 255, 182);
   }
 
   .faTelegram{
